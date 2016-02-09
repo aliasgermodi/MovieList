@@ -16,6 +16,7 @@ public class MainActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
         // storing string resources into Array
         String[] adobe_products = getResources().getStringArray(R.array.adobe_products);
 
@@ -41,6 +42,5 @@ public class MainActivity extends ListActivity {
             }
         });
     }
-
 
 }
